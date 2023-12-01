@@ -36,3 +36,23 @@ a {
 }
 /* ===============================================HERO======================================================= */
 
+.hero {}
+
+.hero-titel {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.21; /* 34px/28 */
+    letter-spacing: -0.03em;
+}
+
+.btn-buy {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.21; /* 17px/14 */
+    letter-spacing: 0em;
+}
+
+.btn-made {}
+
+.btn-scroll {}
