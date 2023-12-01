@@ -1,3 +1,38 @@
 body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link {
+    list-style: none;
+    
+}
+
+
+
+/* ===============================================HEADER======================================================= */
+.logo {   
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.11; /* 20px/18 */
+    letter-spacing: -0.03em;
+    
+}
+
+.nav-list {    
+    font-weight: 500;
+    line-height: 1.14; /* 16px/14 */
+    letter-spacing: -0.02em;    
+}
+
+.socialnetwork-list {
 
 }
+/* ===============================================HERO======================================================= */
+

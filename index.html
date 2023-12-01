@@ -7,11 +7,26 @@
     <meta name="description" content="simply chocolat" />
     <!-- Title -->
     <title>SIMPLY CHOCOLATE</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
     <!--Favicon-->
     <link
       rel="shortcut icon"
       href="./images/header/logo-svg.svg"
       type="image/svg"
+    />
+    <!-- Normalizer -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <!-- Our style css -->
     <link rel="stylesheet" href="./css/styles.css" />
@@ -19,25 +34,25 @@
   <body>
     <!-- Header -->
     <header>
-      <!-- Logo -->
-      <a href="./index.html"
-        >SIMPLY CHOCOLATE
-        <img
-          src="./images/header/logo-svg.svg"
-          alt="chocolate bar logo"
-          width="24"
-        />
-      </a>
-      <!-- Navigation -->
       <nav>
-        <ul>
+        <!-- Logo -->
+        <a class="logo link" href="./index.html"
+          >SIMPLY CHOCOLATE
+          <img
+            src="./images/header/logo-svg.svg"
+            alt="chocolate bar logo"
+            width="24"
+          />
+        </a>
+
+        <ul class="nav-list link">
           <li><a href="#home">Home</a></li>
           <li><a href="#how-it-made?">How it’s made?</a></li>
           <li><a href="#chocolate-is-loved">Chocolate is loved</a></li>
         </ul>
       </nav>
       <!-- Social Networks -->
-      <ul>
+      <ul class="socialnetwork-list link">
         <li>
           <a
             href="Facebook.com"
@@ -91,8 +106,8 @@
           of pure delight!
         </h1>
         <button type="button">Buy now</button>
-        <a href="#how-it-made?">How it’s made</a>
-        <p>scroll down</p>
+        <button type="button">How it’s made</button>
+        <button type="button">scroll down</button>
         <!-- <a href=""><img src="" alt="" /></a> -->
       </section>
       <!-- Srection Benefits -->
@@ -201,7 +216,7 @@
         <p>
           Try our chocolates today and discover the perfect balance of flavor
         </p>
-        <ul>
+        <ol>
           <li>
             Heat the milk in a saucepan without bringing it to a boil. Add sugar
             and cocoa powder.
@@ -218,7 +233,7 @@
             Pour the chocolate into special containers (can be replaced with ice
             molds). Allow to cool and harden.
           </li>
-        </ul>
+        </ol>
       </section>
       <!-- Our products -->
       <section>
@@ -434,13 +449,11 @@
         <a href="mailto:simplychoc@gmail.com">simplychoc@gmail.com</a>
       </address>
       <!-- Navigation -->
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#how-it-made?">How it’s made?</a></li>
-          <li><a href="#chocolate-is-loved">Chocolate is loved</a></li>
-        </ul>
-      </nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#how-it-made?">How it’s made?</a></li>
+        <li><a href="#chocolate-is-loved">Chocolate is loved</a></li>
+      </ul>
     </footer>
   </body>
 </html>
