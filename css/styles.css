@@ -6,6 +6,7 @@ body {
 
 a {
     text-decoration: none;
+    
 }
 
 .link {
@@ -46,13 +47,55 @@ a {
 }
 
 .btn-buy {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
     font-weight: 600;
     line-height: 1.21; /* 17px/14 */
     letter-spacing: 0em;
 }
 
-.btn-made {}
+.btn-made {
+    font-weight: 600;
+    line-height: 1.21; /* 17px/14 */
+    letter-spacing: 0em;
+    
 
-.btn-scroll {}
+}
+
+.btn-scroll {
+
+        font-weight: 500;
+        line-height: 1.28; /* 18px/14 */
+        letter-spacing: -0.03em;
+        
+}
+
+
+/* ===============================================SECTION BENEFITS======================================================= */
+
+.section-title {
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16; /* 28px/24 */
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+
+.section-list {}
+
+.section-topic {
+    
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.22; /* 22px/18 */
+    letter-spacing: 0em;
+       
+    }
+
+.section-text {
+    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28; /* 18px/14 */
+    letter-spacing: -0.02em;
+    
+}
