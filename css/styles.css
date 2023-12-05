@@ -1,7 +1,10 @@
 :root {
     --witte-color: #FFFFFF;
     --orange-color: #FD9222;
-    --benefits-color-bgc: #1E1823;
+    --second-bgc: #1E1823;
+    --main-bgc: #1111111A;
+    
+    
 }
 
 
@@ -12,7 +15,7 @@ body {
     font-size: 14px;
     
     color: #111111;
-    background-color: #FFFFFF;
+    background-color: var(--main-bgc);
 }
 
 a {
@@ -112,7 +115,7 @@ button {
 }
 
 .benefits {
-background-color: var(--benefits-color-bgc);
+background-color: var(--second-bgc);
 color: #FFFFFF;
 
 }
@@ -131,7 +134,9 @@ color: #FFFFFF;
     text-transform: uppercase;
 }
 
-.section-list {}
+.section-list li {
+
+}
 
 .section-topic {
     
@@ -163,6 +168,20 @@ color: #FFFFFF;
     color: var(--orange-color);
 }
 
+.cards li {
+    background-color: var(--witte-color);
+        
+    border: 1px solid var(--main-bgc);
+    border-radius: 15px;
+}
+
+.instruction {
+    background-color: var(--witte-color);
+        
+    border: 1px solid var(--main-bgc);
+    border-radius: 15px;
+}
+
 
 /* ===============================================SECTION OUR PRODUCTS======================================================= */
     
@@ -171,8 +190,21 @@ color: #FFFFFF;
         font-weight: 600; 
         line-height: 1.21; /* 17px/14 */
         letter-spacing: 0em;
+
+        border: 1px solid var(--main-bgc);
+        border-radius: 100px;
         
 }   
+
+.products h3 {
+    text-transform: uppercase;
+}
+
+.products p {
+color: #111111B2;
+}
+
+
 
 /* ===============================================SECTION TOP SELLERS======================================================= */
 
@@ -197,10 +229,16 @@ color: #FFFFFF;
     font-weight: 600;
     line-height: 1.22; /* 22px/18 */
     letter-spacing: 0em;
+    
+    border: 1px solid var(--orange-color);
+    border-radius: 100px;
 }
 /* ===============================================FOOTER======================================================= */
 
-.footer {}
+.footer {
+    background-color: var(--second-bgc);
+    color: var(--witte-color);
+}
 
 .footer-text {
 
