@@ -2,61 +2,75 @@
     --witte-color: #FFFFFF;
     --orange-color: #FD9222;
     --second-bgc: #1E1823;
-    --main-bgc: #1111111A;
-    
-    
+    --main-bgc: #1111111A; 
 }
-
-
 
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 14px;
-    
     color: #111111;
     background-color: var(--main-bgc);
+}
+
+.container {
+    width: 1136px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 a {
     text-decoration: none;
     /* color:currentColor; */
     color:inherit;
-    
 }
 
 .link {
     list-style: none;
-    
 }
 
 button {
     cursor: pointer;
 }
 
-/* ===============================================HEADER======================================================= */
-.logo {   
+h1,h2,h3,h4,h5,h6,p {
+margin-top: 0;
+margin-bottom: 0;
+}
 
+ul,ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+/* ===============================================HEADER======================================================= */
+
+.flex {
+    display: flex;
+}
+
+.logo {   
+    display: flex;
     font-size: 18px;
     font-style: italic;
     font-weight: 700;
     line-height: 1.11; /* 20px/18 */
-    letter-spacing: -0.03em;
-    
+    letter-spacing: -0.03em;    
 }
 
-
-
 .nav-list {    
+    display: flex;
     font-weight: 500;
     line-height: 1.14; /* 16px/14 */
     letter-spacing: -0.02em;    
 }
-
-.socialnetwork-list {
-
-}
-
 
 /* ===============================================HERO======================================================= */
 
@@ -69,55 +83,44 @@ button {
     font-weight: 500;
     line-height: 1.21; /* 34px/28 */
     letter-spacing: -0.03em;
-
     color: var(--witte-color);
     
 }
 
 .btn-buy {
+    border: none;
+
     font-weight: 600;
     line-height: 1.21; /* 17px/14 */
     letter-spacing: 0em;
-
     color: var(--witte-color);
     background-color: var(--orange-color);
 
-    border: none;
+   
 }
 
 .btn-made {
+    border: none;
+    border: 1px solid var(--witte-color);
     font-weight: 600;
     line-height: 1.21; /* 17px/14 */
     letter-spacing: 0em;
-
-    color: var(--witte-color);
-
-    border: 1px solid var(--witte-color);
-    
-
+    color: var(--witte-color);    
 }
 
 .btn-scroll {
-
     font-weight: 500;
     line-height: 1.28; /* 18px/14 */
     letter-spacing: -0.03em;
-
-    color: var(--witte-color);
-        
+    color: var(--witte-color);       
 }
-
 
 /* ===============================================SECTION BENEFITS======================================================= */
 
-.section {
-
-}
 
 .benefits {
-background-color: var(--second-bgc);
-color: #FFFFFF;
-
+    background-color: var(--second-bgc);
+    color: #FFFFFF;
 }
 
 .benefits p {
@@ -125,7 +128,6 @@ color: #FFFFFF;
 }
 
 .section-title {
-
     font-weight: 600;
     font-size: 24px;
     line-height: 1.16; /* 28px/24 */
@@ -134,34 +136,26 @@ color: #FFFFFF;
     text-transform: uppercase;
 }
 
-.section-list li {
-
-}
-
-.section-topic {
-    
+.section-topic {    
     font-size: 18px;
     font-weight: 600;
     line-height: 1.22; /* 22px/18 */
-    letter-spacing: 0em;
-           
-    }
+    letter-spacing: 0em;           
+}
+
 
 .section-text {
-    
     font-weight: 400;
     line-height: 1.28; /* 18px/14 */
-    letter-spacing: -0.02em;
-    
+    letter-spacing: -0.02em;    
 }
+
 /* ===============================================SECTION INGREDIENTS======================================================= */
 
 /* Додати білий колір за допомогою псевдо елементів */
 
 .weight {
-   
     font-weight: 600;
-        
 }
 
 .span {
@@ -176,24 +170,23 @@ color: #FFFFFF;
 }
 
 .instruction {
-    background-color: var(--witte-color);
-        
     border: 1px solid var(--main-bgc);
     border-radius: 15px;
+    
+    background-color: var(--witte-color);    
+
 }
 
-
 /* ===============================================SECTION OUR PRODUCTS======================================================= */
-    
+ 
+
 .btn-uah {
+    border: 1px solid var(--main-bgc);
+    border-radius: 100px;
 
-        font-weight: 600; 
-        line-height: 1.21; /* 17px/14 */
-        letter-spacing: 0em;
-
-        border: 1px solid var(--main-bgc);
-        border-radius: 100px;
-        
+    font-weight: 600; 
+    line-height: 1.21; /* 17px/14 */
+    letter-spacing: 0em;       
 }   
 
 .products h3 {
@@ -204,19 +197,18 @@ color: #FFFFFF;
 color: #111111B2;
 }
 
-
-
 /* ===============================================SECTION TOP SELLERS======================================================= */
 
-.topsel p {
-    
+
+.topsel p {    
     font-size: 18px;
     font-weight: 600;
     line-height: 1.33; /* 24px/18 */
-    letter-spacing: -0.02em;
-        
+    letter-spacing: -0.02em;   
 }
+
 /* ===============================================SECTION CHOCOLATE LOVED======================================================= */
+
 
 .centred h3,
 .centred p {
@@ -224,16 +216,17 @@ color: #111111B2;
 }
 
 .btn-review {
+    border: 1px solid var(--orange-color);
+    border-radius: 100px;
 
     font-size: 18px;
     font-weight: 600;
     line-height: 1.22; /* 22px/18 */
-    letter-spacing: 0em;
-    
-    border: 1px solid var(--orange-color);
-    border-radius: 100px;
+    letter-spacing: 0em;     
 }
+
 /* ===============================================FOOTER======================================================= */
+
 
 .footer {
     background-color: var(--second-bgc);
@@ -241,28 +234,24 @@ color: #111111B2;
 }
 
 .footer-text {
-
     font-size: 28px;
     font-weight: 500;
     line-height: 1.21%; /* 34px/28 */
     letter-spacing: -0.02em;
-    
 }
 
 .footer-title {
-
-        font-weight: 500;
-        line-height: 18px;
-        letter-spacing: 0em;
-        text-align: left;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 
 .address {
-
-        font-weight: 400;
-        line-height: 1.28; /* 18px/14 */
-        letter-spacing: -0.02em;
-        text-align: center;
+    font-weight: 400;
+    line-height: 1.28; /* 18px/14 */
+    letter-spacing: -0.02em;
+    text-align: center;
 }
 
