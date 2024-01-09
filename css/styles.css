@@ -1,0 +1,9 @@
+body {
+    font-family:'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+button {
+    font-family: inherit;
+    font-style: inherit;
+}
