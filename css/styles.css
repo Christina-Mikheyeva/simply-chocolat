@@ -17,9 +17,7 @@ a {
 
 /*=============================== Header ============================== */
 
-.header {}
 
-.hedaer-nav {}
 
 /* --- Logo ---*/
 .logo {
@@ -34,11 +32,6 @@ a {
     font-style: italic;
 }
 
-.header-svg {}
-
-.header-list {}
-
-.header-item {}
 
 .link {
     color: rgba(17, 17, 17, 1);
@@ -48,15 +41,9 @@ a {
     letter-spacing: -0.02em; /* -0.28px/14 */
 }
 
-.social-list {}
-
-.social-item {}
-
 
 /*=============================== Hero ============================== */
 
-
-.hero {}
 
 .hero-title {
     color: rgba(255, 255, 255, 1);
@@ -68,9 +55,6 @@ a {
 
 /* --- Buttons list (hero) --- */
 
-.btn-list {}
-
-.btn-item {}
 
 .button {
     outline: transparent;
