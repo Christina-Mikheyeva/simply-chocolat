@@ -1,9 +1,54 @@
+
 body {
     font-family:'Montserrat', sans-serif;
     font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 button {
     font-family: inherit;
     font-style: inherit;
 }
+
+a {
+    text-decoration: none;
+}
+
+
+/*=============================== Header ============================== */
+
+.header {}
+
+.hedaer-nav {}
+
+/* --- Logo ---*/
+.logo {
+    color: rgba(17, 17, 17, 1);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.11; /* 20px/18 */
+    letter-spacing: -0.03em; /* -0.54px/18 */
+}
+
+.header-span {
+    font-style: italic;
+}
+
+.header-svg {}
+
+.header-list {}
+
+.header-item {}
+
+.link {
+    color: rgba(17, 17, 17, 1);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14; /* 16px/14 */
+    letter-spacing: -0.02em; /* -0.28px/14 */
+}
+
+.social-list {}
+
+.social-item {}
+

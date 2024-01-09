@@ -16,60 +16,92 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap" rel="stylesheet">
+    <!-- Normalization -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Styles -->
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <!-- Header -->
-    <header>
+    <header class="header">
       <!-- Navigation (header) -->
-      <nav id="Home">
+      <nav class="hedaer-nav" id="Home">
         <!-- Logo -->
-        <a href="./index.html"
-          >SIMPLY CHOCOLATE
-          <svg class="" width="24px" height="24px">
+        <a class="logo" href="./index.html">
+
+          <span class="header-span">SIMPLY&nbsp;</span>CHOCOLATE
+
+          <svg class="header-svg" width="24px" height="24px">
             <use href=""></use>
           </svg>
+          
         </a>
         <!-- Menu (header) -->
-        <ul>
-          <a href="#Home">
-            <li>Home</li>
-          </a>
-          <a href="#How it’s made?">
-            <li>How it’s made?</li>
-          </a>
-          <a href="#Chocolate is loved">
-            <li>Chocolate is loved</li>
-          </a>
+        <ul class="header-list">
+
+          <li class="header-item">
+            <a class="link" href="#Home">Home</a>
+          </li>
+
+          <li class="header-item">
+            <a class="link" href="#How it’s made?">How it’s made?</a>
+          </li>
+
+          <li class="header-item">
+            <a class="link" href="#Chocolate is loved">Chocolate is loved</a>              
+          </li>
+
         </ul>
       </nav>
       <!-- Social-links list (header) -->
-      <ul>
-        <li>
+      <ul class="social-list">
+
+        <li class="social-item">
+
           <a
             href="http://"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Facebook"
-          ></a>
+            aria-label="Facebook">
+
+            <svg class="social-svg" width="24" height="24">
+              <use href=""></use>
+            </svg>
+
+          </a>
+
         </li>
-        <li>
+        <li class="social-item">
+
           <a
             href="http://"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Instagram"
-          ></a>
+            aria-label="Instagram">
+
+            <svg class="social-svg" width="24" height="24">
+              <use href=""></use>
+            </svg>
+
+          </a>
+
         </li>
-        <li>
+        <li class="social-item">
+
           <a
             href="http://"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="X"
-          ></a>
+            aria-label="X">
+
+           <svg class="social-svg" width="24" height="24">
+              <use href=""></use>
+            </svg>
+
+          </a>
+
         </li>
+
       </ul>
     </header>
     <!-- Main -->
