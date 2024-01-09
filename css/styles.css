@@ -52,3 +52,46 @@ a {
 
 .social-item {}
 
+
+/*=============================== Hero ============================== */
+
+
+.hero {}
+
+.hero-title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.21; /* 34px/28 */
+    letter-spacing: -0.03em; /* -0.84px/28 */
+}
+
+/* --- Buttons list (hero) --- */
+
+.btn-list {}
+
+.btn-item {}
+
+.button {
+    outline: transparent;
+    border-radius: 100px;
+
+    color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.primary {
+    background-color: rgba(253, 146, 34, 1);
+}
+
+.secondary {
+    border: 1px solid currentColor;
+}
+
+.scroll {
+    font-weight: 500;
+    line-height: 1,28; /* 18px/14 */
+    letter-spacing: 0.03em; /* -0.42px/14 */
+}
