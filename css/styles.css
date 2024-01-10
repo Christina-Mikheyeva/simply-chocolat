@@ -2,7 +2,9 @@
 body {
     font-family:'Montserrat', sans-serif;
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.7);
+    /* color: rgba(255, 255, 255, 0.7); */
+    color: rgba(17, 17, 17, 1);
+    background-color: rgba(250, 250, 250, 1);
 }
 
 button {
@@ -21,11 +23,10 @@ a {
 
 /* --- Logo ---*/
 .logo {
-    color: rgba(17, 17, 17, 1);
-    font-size: 18px;
+    color: currentColor;
     font-weight: 700;
-    line-height: 1.11; /* 20px/18 */
-    letter-spacing: -0.03em; /* -0.54px/18 */
+    line-height: 1.28; /* 18px/14 */
+    letter-spacing: -0.03em; /* -0.42px/14 */
 }
 
 .header-span {
@@ -33,8 +34,7 @@ a {
 }
 
 
-.link {
-    color: rgba(17, 17, 17, 1);
+.nav-link {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14; /* 16px/14 */
@@ -47,10 +47,10 @@ a {
 
 .hero-title {
     color: rgba(255, 255, 255, 1);
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 500;
-    line-height: 1.21; /* 34px/28 */
-    letter-spacing: -0.03em; /* -0.84px/28 */
+    line-height: 1.20; /* 24px/20 */
+    letter-spacing: -0.03em; /* -0.6px/20 */
 }
 
 /* --- Buttons list (hero) --- */
@@ -75,7 +75,79 @@ a {
 }
 
 .scroll {
+    font-size: 12px;
     font-weight: 500;
-    line-height: 1,28; /* 18px/14 */
-    letter-spacing: 0.03em; /* -0.42px/14 */
+    line-height: 1.16; /* 14px/12 */
+    letter-spacing: 0.03em; /* -0.36px/12 */
 }
+
+
+/*=============================== Benefits ============================== */
+
+.section-benefits {
+    background: #1E1823;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.20; /* 24px/20 */
+    letter-spacing: 0.03em; /* -0.6px/20 */
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.section-list {}
+
+.item {}
+
+.benefits-svg {}
+
+.section-topic {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.section-text {
+    line-height: normal;
+    letter-spacing: -0.02em; /* -0.28px/14 */
+}
+
+
+/*=============================== Ingredients ============================== */
+
+
+.accent {
+    color: rgba(253, 146, 34, 1);
+}
+
+.section-list {}
+
+.item-list {
+    border-radius: 15px;
+    background-color: #FD9222;
+    color:rgba(255, 255, 255, 1);
+}
+
+.item-list:nth-child(even) {
+    border: 1px solid rgba(17, 17, 17, 0.10);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.section-text {} 
