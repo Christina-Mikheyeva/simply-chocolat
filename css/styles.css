@@ -2,6 +2,7 @@
 body {
     font-family:'Montserrat', sans-serif;
     font-size: 14px;
+    letter-spacing: -0.02em;
     color: rgba(17, 17, 17, 1);
     background-color: rgba(250, 250, 250, 1);
 }
@@ -41,7 +42,6 @@ ul,ol {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14; /* 16px/14 */
-    letter-spacing: -0.02em; /* -0.28px/14 */
 }
 
 
@@ -66,7 +66,6 @@ ul,ol {
     color: rgba(255, 255, 255, 1);
     background-color: transparent;
     font-weight: 600;
-    line-height: normal;
 }
 
 .primary {
@@ -118,16 +117,10 @@ ul,ol {
 .section-topic {
     font-size: 18px;
     font-weight: 600;
-    line-height: normal;
 }
 
 .color {
     color: rgba(255, 255, 255, 1);
-}
-
-.section-text {
-    line-height: normal;
-    letter-spacing: -0.02em; /* -0.28px/14 */
 }
 
 
@@ -160,6 +153,7 @@ ul,ol {
     background: #1E1823;
 }
 
+
 /*=============================== How it's made ============================== */
 
 
@@ -169,7 +163,6 @@ ul,ol {
 
 .section-list.made {
     line-height: 1.28; /* 18px/14 */
-    letter-spacing: -0.02em; /* -0.28px/14 */
 }
 
 
@@ -178,7 +171,6 @@ ul,ol {
 
 .section-topic.products {
     line-height: 1.33; /* 24px/18 */
-    letter-spacing: -0.02em; /* -0.36px/18 */
     text-transform: uppercase;
 }
 
@@ -186,7 +178,6 @@ ul,ol {
     color: rgba(17, 17, 17, 0.70);
     font-size: 12px;
     line-height: 1.16; /* 14px/12 */
-    letter-spacing: -0.02em; /* -0.24px/12 */
 }
 
 .button.products {
@@ -200,3 +191,20 @@ ul,ol {
 /*=============================== Top sellers ============================== */
 
 
+/*=============================== Chocolate is loved ============================== */
+
+
+.item-list.chocolate {
+    box-shadow: 0px 9.049px 100px 0px rgba(17, 17, 17, 0.03);
+}
+
+.section-topic.chocolate {
+    line-height: 1.33; /* 24px/18 */
+    text-align: center;
+}
+
+.section-text.chocolate {
+    color: rgba(17, 17, 17, 0.70);
+    text-align: center;
+    line-height: 1.28; /* 18px/14 */
+}
