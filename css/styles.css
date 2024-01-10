@@ -9,6 +9,7 @@ body {
 button {
     font-family: inherit;
     font-style: inherit;
+    font-size: inherit;
 }
 
 a {
@@ -138,22 +139,31 @@ ul,ol {
 }
 
 .item-list {
-    border-radius: 15px;
-    background-color: #FD9222;
-    color:rgba(255, 255, 255, 1);
-}
-
-.item-list:nth-child(even) {
     border: 1px solid rgba(17, 17, 17, 0.10);
+    border-radius: 15px;
+    
     background-color: rgba(255, 255, 255, 1);
     color: rgba(17, 17, 17, 1);
 }
 
+.item-list.ingredients:nth-child(odd) {
+    border: transparent;
+    background: #FD9222;
+    color: rgba(255, 255, 255, 1);
+}
+
+.item-list.ingredients:nth-child(even) {
+    border: 1px solid #FD9222;
+}
+
+.item-list.ingredients:nth-child(4n+3) {
+    background: #1E1823;
+}
 
 /*=============================== How it's made ============================== */
 
 
-.line {
+.section-topic.line {
     line-height: 1.33; /* 24px/18 */    
 }
 
@@ -165,13 +175,28 @@ ul,ol {
 
 /*=============================== Our products ============================== */
 
-.item-list.products {
-    background-color: rgba(255, 255, 255, 1);
-    color: rgba(17, 17, 17, 1);
-}
 
 .section-topic.products {
     line-height: 1.33; /* 24px/18 */
     letter-spacing: -0.02em; /* -0.36px/18 */
     text-transform: uppercase;
 }
+
+.section-text.products {
+    color: rgba(17, 17, 17, 0.70);
+    font-size: 12px;
+    line-height: 1.16; /* 14px/12 */
+    letter-spacing: -0.02em; /* -0.24px/12 */
+}
+
+.button.products {
+
+    border: 1px solid rgba(17, 17, 17, 0.10);
+    background: #FAFAFA;
+    color: rgba(17, 17, 17, 1);
+}
+
+
+/*=============================== Top sellers ============================== */
+
+
