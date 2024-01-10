@@ -164,3 +164,14 @@ ul,ol {
 
 
 /*=============================== Our products ============================== */
+
+.item-list.products {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(17, 17, 17, 1);
+}
+
+.section-topic.products {
+    line-height: 1.33; /* 24px/18 */
+    letter-spacing: -0.02em; /* -0.36px/18 */
+    text-transform: uppercase;
+}
