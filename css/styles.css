@@ -11,6 +11,7 @@ button {
     font-family: inherit;
     font-style: inherit;
     font-size: inherit;
+    cursor: pointer;
 }
 
 a {
@@ -21,8 +22,8 @@ ul,ol {
     list-style-type:none;
 }
 
-/*=============================== Header ============================== */
 
+/*=============================== Header ============================== */
 
 
 /* --- Logo ---*/
@@ -36,7 +37,6 @@ ul,ol {
 .header-span {
     font-style: italic;
 }
-
 
 .nav-link {
     font-size: 14px;
@@ -61,6 +61,7 @@ ul,ol {
 
 .button {
     outline: transparent;
+    border: none;
     border-radius: 100px;
 
     color: rgba(255, 255, 255, 1);
@@ -85,6 +86,7 @@ ul,ol {
 
 
 /*=============================== Benefits ============================== */
+
 
 .section-benefits {
     background: #1E1823;
@@ -207,4 +209,10 @@ ul,ol {
     color: rgba(17, 17, 17, 0.70);
     text-align: center;
     line-height: 1.28; /* 18px/14 */
+}
+
+.button.chocolate {
+    color: rgba(17, 17, 17, 1);
+    border: 1px solid rgba(253, 146, 34, 1);
+    font-size: 18px;
 }
