@@ -73,6 +73,7 @@ ul,ol {
     background-position: center;
     background-size: cover;
     background-color:rgba(17, 17, 17, 0.10);
+    /* max-width: 1136px; */
 }
 
 /*===================== For mobile ===================== */
@@ -227,9 +228,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1200px) {
     background: #1E1823;
 }
 
-
 /*=============================== How it's made ============================== */
-
 
 .section-topic.line {
     line-height: 1.33; /* 24px/18 */    
@@ -238,7 +237,6 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1200px) {
 .section-list.made {
     line-height: 1.28; /* 18px/14 */
 }
-
 
 /*=============================== Our products ============================== */
 

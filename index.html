@@ -190,9 +190,33 @@
       </section>
 
       <!-- How it's made -->
-      <section>
+      <section class="made">
         <div class="container">
           <h2 class="section-title" id="How it’s made?">How it’s <span class="accent">made?</span></h2>
+          
+          <picture>
+            <!-- Desktop -->
+            <source 
+            media="(min-width: 1200px)"
+            srcset="
+            ./img/made_desk/imagemade@1x_desk.jpg 1x,
+            ./img/made_desk/imagemade@2x_desk.jpg 2x"/>
+            <!-- Tablet -->
+            <source 
+            media="(min-width: 768px)"
+            srcset="
+            ./img/made_tab/imagemade_tab@1x.jpg 1x,
+            ./img/made_tab/imagemade_tab@2x.jpg 2x"/>
+            <!-- Mobile -->
+            <source 
+            media="(max-width: 767px)"
+            srcset="
+            ./img/made_mob/imagemade_mob.jpg 1x,
+            ./img/made_mob/imagemade_mob@2x.jpg 2x"/>
+
+            <img src="/img/made_mob/imagemade_mob.jpg" alt="Process chocolate preparation" width="614" loading="lazy">
+          </picture>
+
           <h3 class="section-topic line">Try  our chocolates today and discover the perfect balance of flavor</h3>
           <ol class="section-list made">
               <li class="item">Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.</li>
