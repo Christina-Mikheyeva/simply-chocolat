@@ -8,18 +8,18 @@ body {
 }
 
 .container {
-    max-width: 335px;
+    max-width: 375px;
     padding: 0 20px;
     margin-right: auto;
     margin-left: auto;
     outline: 1px solid maroon;
 
     @media screen and (min-width: 768px){ 
-    max-width: 704px;   
+    max-width: 736px;   
     padding: 0 16px;
 
     @media screen  and (min-width: 1200px){
-    max-width: 1136px;
+    max-width: 1168px;
 }}}
 
 button {
@@ -63,7 +63,7 @@ ul,ol {
 
 /*=============================== Hero ============================== */
 
-.hero.img {
+.hero {
     background-image: linear-gradient(
     to right,    
     rgba(17, 17, 17, 0.10),
@@ -76,16 +76,49 @@ ul,ol {
 }
 
 /*===================== For mobile ===================== */
-1136
 
+@media 
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-device-pixel-ratio: 2) {
+    .hero { 
+        background-image: linear-gradient(to right,rgba(17, 17, 17, 0.10),
+        rgba(17, 17, 17, 0.10)), url(/img/hero/hero-bghero_mob@2x.jpg);
+}}
 
-/*===================== For tablet===================== */
+/*===================== For tablet======================= */
 
+@media screen and (min-width: 768px) {
+    .hero {background-image: linear-gradient(to right,rgba(17, 17, 17, 0.10),
+        rgba(17, 17, 17, 0.10)), url(/img/hero/hero-bghero_tab@1.jpg);
+}}
 
+@media 
+screen and (min-resolution: 192dpi) and (min-width: 786px),
+screen and (min-resolution: 2dppx) and (min-width: 786px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 786px) {
+    .hero { 
+        background-image: linear-gradient(to right,rgba(17, 17, 17, 0.10),
+        rgba(17, 17, 17, 0.10)), url(/img/hero/hero-bghero_tab@2x.jpg);
+}}
 
 /*===================== For desktop ===================== */
 
+@media screen and (min-width: 1200px) {
+    .hero {background-image: linear-gradient(to right,rgba(17, 17, 17, 0.10),
+        rgba(17, 17, 17, 0.10)), url(/img/hero/hero-bghero_desk@1x.jpg);
+}}
 
+@media 
+screen and (min-resolution: 192dpi) and (min-width: 1200px),
+screen and (min-resolution: 2dppx) and (min-width: 1200px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 1200px) {
+    .hero { 
+        background-image: linear-gradient(to right,rgba(17, 17, 17, 0.10),
+        rgba(17, 17, 17, 0.10)), url(/img/hero/hero-bghero_desk@2x.jpg);
+}}
+
+/*======================================================= */
 
 .hero-title {
     color: rgba(255, 255, 255, 1);
