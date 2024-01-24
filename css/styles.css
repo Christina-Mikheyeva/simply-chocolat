@@ -55,7 +55,6 @@ img {
 
 /*=============================== Header ============================== */
 
-
 /* --- Logo ---*/
 
 .logo {
@@ -63,6 +62,12 @@ img {
     font-weight: 700;
     line-height: 1.28; /* 18px/14 */
     letter-spacing: -0.03em; /* -0.42px/14 */
+}
+
+.header-svg {
+    stroke: rgba(253, 146, 34, 1);
+    width: 21px;
+    height: 21px;
 }
 
 .header-span {
