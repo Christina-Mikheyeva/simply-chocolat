@@ -22,6 +22,10 @@ body {
     max-width: 1168px;
 }}}
 
+section {
+    padding-bottom:80px;
+}
+
 button {
     font-family: inherit;
     font-style: inherit;
@@ -55,9 +59,16 @@ img {
 
 /*=============================== Header ============================== */
 
+.header {
+    padding-bottom: 14px;
+}
+
 /* --- Logo ---*/
 
 .logo {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 4px;
     color: currentColor;
     font-weight: 700;
     line-height: 1.28; /* 18px/14 */
@@ -70,15 +81,53 @@ img {
     height: 21px;
 }
 
+/* --- Menu mobile ---*/
+
+.button.menu{
+    display: none;
+}
+
+@media screen and (max-width: 767.98px) {
+    .button.menu {
+        display: block;
+        padding: 0;
+        margin: 0;
+}}
+
+.button-svg {
+    fill: rgba(17, 17, 17, 1);
+}
+
+.wrapper-logomob{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+}
+
 .header-span {
     font-style: italic;
 }
+
+/* --- Nav-list header ---*/
+
+@media screen and (max-width: 767.98px) {
+    .nav-list {
+        display: none;
+}}
 
 .nav-link {
     font-weight: 500;
     line-height: 1.14; /* 16px/14 */
 }
 
+/* --- Social-list header ---*/
+
+@media screen and (max-width: 767.98px) {
+    .social-list {
+        display: none;
+}}
 
 /*=============================== Hero ============================== */
 

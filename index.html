@@ -6,7 +6,7 @@
     <!-- Title -->
     <title>Simply Chocolate</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/chocolatefavicon.svg" type="image/x-icon">
     <!-- Description -->
     <meta
       name="description"
@@ -27,14 +27,21 @@
       <div class="container">
         <!-- Navigation (header) -->
         <nav class="hedaer-nav" id="Home">
-          <!-- Logo -->
-          <a class="logo" href="./index.html">
-            <span class="header-span">SIMPLY&nbsp;</span>CHOCOLATE
-            <svg class="header-svg" width="24px" height="24px">
-              <use href="./img/sprite/sprite_color.svg#logo"></use>
-            </svg>
-        
-          </a>
+          <div class="wrapper-logomob">
+            <!-- Logo -->
+            <a class="logo" href="./index.html">
+              <span class="header-span">SIMPLY&nbsp;</span>CHOCOLATE
+              <svg class="header-svg" width="24px" height="24px">
+                <use href="./img/sprite/sprite.svg#icon-logo"></use>
+              </svg>
+            </a>
+            <!-- Menu mobile -->
+            <button class="button menu" type="button" aria-label="Open menu button">
+              <svg class="button-svg" width="28" height="28">
+                <use href="./img/sprite/sprite.svg#icon-menu"></use>
+              </svg>
+            </button>
+          </div>
           <!-- Nav-list (header) -->
           <ul class="nav-list">
             <li class="nav-item">
@@ -78,7 +85,7 @@
               target="_blank"
               rel="noopener noreferrer"
               aria-label="X">
-             <svg class="social-svg" width="24" height="24">
+               <svg class="social-svg" width="24" height="24">
                 <use href=""></use>
               </svg>
             </a>
