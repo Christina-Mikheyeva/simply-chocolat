@@ -144,6 +144,12 @@ img {
     /* max-width: 1136px; */
 }
 
+.hero.container{
+    border-radius: 30px;
+    /* width: 335px;
+    height: 620px; */
+}
+
 /*===================== For mobile ===================== */
 
 @media 
@@ -153,7 +159,7 @@ screen and (min-device-pixel-ratio: 2) {
     .hero { 
         background-image: linear-gradient(to right,rgba(17, 17, 17, 0.10),
         rgba(17, 17, 17, 0.10)), url(/img/hero/hero-bghero_mob@2x.jpg);
-}}
+    }}
 
 /*===================== For tablet======================= */
 
@@ -190,6 +196,9 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1200px) {
 /*======================================================= */
 
 .hero-title {
+    padding-top: 395px;
+    margin-bottom: 32px;
+
     color: rgba(255, 255, 255, 1);
     font-size: 20px;
     font-weight: 500;
@@ -199,6 +208,12 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1200px) {
 
 /* --- Buttons list (hero) --- */
 
+.btn-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 14px;
+    row-gap: 32px;
+}
 
 .button {
     outline: transparent;
@@ -220,18 +235,38 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1200px) {
 }
 
 .scroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 12px;
+    padding: 0;
+
     font-size: 12px;
     font-weight: 500;
     line-height: 1.16; /* 14px/12 */
     letter-spacing: 0.03em; /* -0.36px/12 */
 }
 
+.scroll-svg {
+    fill: currentColor;
+}
 
+.fuck {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        width: 28px;
+        height: 28px;
+    
+        background-color: rgba(250, 250, 250, 1);
+        color: rgba(253, 146, 34, 1);
+}
 /*=============================== Benefits ============================== */
 
 
 .section-benefits {
-    background: #1E1823;
+    background-color: #1E1823;
     color: rgba(255, 255, 255, 0.70);
 }
 
