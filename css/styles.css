@@ -23,7 +23,7 @@ body {
 }}}
 
 section {
-    padding-bottom:80px;
+    padding-bottom: 80px;
 }
 
 button {
@@ -132,6 +132,13 @@ img {
 /*=============================== Hero ============================== */
 
 .hero {
+    border-radius: 30px;
+    width: 335px;
+    height: 620px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 80px;
+
     background-image: linear-gradient(
     to right,    
     rgba(17, 17, 17, 0.10),
@@ -141,13 +148,6 @@ img {
     background-position: center;
     background-size: cover;
     background-color:rgba(17, 17, 17, 0.10);
-    /* max-width: 1136px; */
-}
-
-.hero.container{
-    border-radius: 30px;
-    /* width: 335px;
-    height: 620px; */
 }
 
 /*===================== For mobile ===================== */
@@ -247,21 +247,21 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1200px) {
     letter-spacing: 0.03em; /* -0.36px/12 */
 }
 
-.scroll-svg {
-    fill: currentColor;
+.scroll-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+        
+    background-color: rgba(250, 250, 250, 1);
 }
 
-.fuck {
-    display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-        width: 28px;
-        height: 28px;
-    
-        background-color: rgba(250, 250, 250, 1);
-        color: rgba(253, 146, 34, 1);
+.scroll-svg {
+    fill: rgba(253, 146, 34, 1);
 }
+
 /*=============================== Benefits ============================== */
 
 
@@ -270,6 +270,11 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1200px) {
     color: rgba(255, 255, 255, 0.70);
 }
 
+.container.benefits {
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
+
 .section-title {
     font-size: 20px;
     font-weight: 600;
@@ -277,6 +282,10 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1200px) {
     letter-spacing: 0.03em; /* -0.6px/20 */
     text-align: center;
     text-transform: uppercase;
+}
+
+.item-benefits:not(:last-child) {
+    margin-bottom: 20px;
 }
 
 .visually-hidden {
@@ -293,7 +302,25 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1200px) {
     overflow: hidden;
 }
 
+.benefits-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 22px;
+
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+}
+
+.benefits-svg {
+    fill: rgba(253, 146, 34, 1);
+}
+
 .section-topic {
+    margin-bottom: 18px;
+
     font-size: 18px;
     font-weight: 600;
 }
