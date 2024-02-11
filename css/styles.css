@@ -266,6 +266,8 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1200px) {
 
 
 .section-benefits {
+    margin-bottom: 80px;
+    
     background-color: #1E1823;
     color: rgba(255, 255, 255, 0.70);
 }
@@ -337,12 +339,20 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1200px) {
     color: rgba(253, 146, 34, 1);
 }
 
+.section-title.ingredients {
+    margin-bottom: 32px;
+}
+
 .item-list {
     border: 1px solid rgba(17, 17, 17, 0.10);
     border-radius: 15px;
     
     background-color: rgba(255, 255, 255, 1);
     color: rgba(17, 17, 17, 1);
+}
+
+.item-list.ingredients:not(:last-child) {
+    margin-bottom: 20px;
 }
 
 .item-list.ingredients:nth-child(odd) {
