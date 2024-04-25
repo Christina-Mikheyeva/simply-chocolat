@@ -369,6 +369,25 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1200px) {
     background: #1E1823;
 }
 
+.item-list.ingredients {
+    padding: 28px 23px;
+    border-radius: 15px;
+    width: calc((100% - 20px)/1);
+
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+
+    @media screen and (min-width: 768px) {
+    width: calc((100% - 32px)/2);
+
+    @media screen and (min-width: 1200px) {
+    width: calc((100% - 32px * 3)/4);
+}}}
+
+.section-text.ingredients {
+    margin-top: 36px;
+}
+
 /*=============================== How it's made ============================== */
 
 .section-topic.line {
